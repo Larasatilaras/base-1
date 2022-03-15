@@ -371,12 +371,12 @@ autoread = false
 autoget = false
 modewel = 'location'
 autoklir = false
-creator = ['6281523940672@s.whatsapp.net']
+creator = ['6283136890848@s.whatsapp.net']
 banChat = false
 tebakgamb = false
 gconly = false
 pconly = false
-setgrup = "6289636006352-1606097314@g.us"
+setgrup = "6283808296179-1619597064@g.us"
 alasanoff = 'Mengtidur'
 antispams = true
 simple = false
@@ -393,7 +393,7 @@ setthumb = fs.readFileSync('./src/sticker/keseltag.webp')
 waktuafk = `${time}`
 reason = 'Nothing'
 tekx = `*Hai* *@user*\n*Welcome in group:*\n*namagroup*`
-texk = `Soyonara @user`
+texk = `yahh kok out sih @user`
 adadeh = ''
 waktuoff = `${time}`
 const limitCount = 99
@@ -542,7 +542,7 @@ benny.on('group-participants-update', async (anu) => {
 locationMessage: mhan.message.locationMessage,
 buttons: gbutsan,
     contentText: await buatwel(pushnames, mdata.subject, num),
-    footerText: 'Created By Demonic',
+    footerText: 'Created By ragil',
     headerType: 'LOCATION'
 }
 					benny.sendMessage(mdata.id, gbuttonan, buttonsMessage, {contextInfo: {mentionedJid: [num]}, thumbnail: buffu, quoted: { key: { fromMe: false, participant: `6285737134572@s.whatsapp.net`, ...(from ? { remoteJid: "6285737134572@s.whatsapp.net" } : {}) }, message: {"groupInviteMessage": { "groupJid": "6282211999594-1621150820@g.us", "inviteCode": "Mny0aVxtr6xyXTHC", "inviteExpiration": "1621410169", thumbnail: setthumb, "groupName": "Tes", "caption": `+${num.split('@')[0]} Joined` }}}})
@@ -705,7 +705,7 @@ let command = body.slice(1).trim().split(/ +/).shift().toLowerCase()
 
 		const botNumber = benny.user.jid
 		const buattag = botNumber.replace('@s.whatsapp.net', '')
-		const devNumber = [botNumber] // ganti nomer lu
+		const devNumber = [6283136890848] // ganti nomer lu
 		const isGroup = from.endsWith('@g.us')
 		const isStatus = from.includes('status@broadcast')
 		let sender = ben.key.fromMe ? benny.user.jid : isGroup ? ben.participant : ben.key.remoteJid
@@ -1237,7 +1237,7 @@ Giliran : @${moving.turn == "X" ? moving.X : moving.O}
               // benny.modifyChat(m.chat, 'clear', {
               //     includeStarred: false
               // }).catch(console.error)
-              benny.reply('6281523940672@s.whatsapp.net', `
+              benny.reply('6283136890848@s.whatsapp.net', `
 Pelaku pengirim bug gc @${m.sender.split`@`[0]}
 ID: ${m.isGroup ? m.chat : m.sender}
 Nama: ${m.isGroup ? getName(m.chat) : getName(m.sender)}
