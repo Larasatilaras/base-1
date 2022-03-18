@@ -3,15 +3,15 @@
   "medialimitCount": "5",
   "memberLimit": 10,
   "superowner1": [
-    "6285709331584@c.us"
+    "6283136890848@c.us"
   ],
   "owner": [
-    "6285709331584@c.us"
+    "6283136890848@c.us"
   ],
   "groupLimit": "100",
   "prefix": "#",
   "mtc": false,
-  "restartState": false,
+  "restartState": true,
   "restartId": "undefined",
   "banChats": false,
   "banChats2": true,
