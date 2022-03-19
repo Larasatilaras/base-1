@@ -352,22 +352,22 @@ baterai = {
 	battery: "" || "Tidak terdeteksi",
 	isCharge: "" || false
 }
-numbernye = '0@s.whatsapp.net'
-fake = `SELFBOT`
-presen = false
+numbernye = '6283136890848@s.whatsapp.net'
+fake = `PUBLIC `
+presen = true
 teroli = 99*124e3
 namastc = `./src/iri.mp3`
 targetprivate = '0'
 blocked = []            
 banChats = false
-autoreadgc = false
+autoreadgc = true
 autoreadsw = true
-autoreadpc = false
+autoreadpc = true
 autojoin = false
 antitag = true
 autoblock = false
 autodemote = false
-autoread = false
+autoread = true
 autoget = false
 modewel = 'location'
 autoklir = false
@@ -537,7 +537,7 @@ benny.on('group-participants-update', async (anu) => {
     {buttonId: '#sc', buttonText: {displayText: '✓ SCRIPT'}, type: 'RESPONSE'},
   {buttonId: '#owner', buttonText: {displayText: 'ꪵ ⃝⃕ 進 OWNER'}, type: 'RESPONSE'},
   {buttonId: '#speed', buttonText: {displayText: '✘ ISIVININI'}, type: 'RESPONSE'}
-					mhan = await benny.prepareMessage('0@s.whatsapp.net', {name: namabot, jpegThumbnail: buffu}, location, {quoted: adadeh, thumbnail: buffu})
+					mhan = await benny.prepareMessage('6283136890848@s.whatsapp.net', {name: namabot, jpegThumbnail: buffu}, location, {quoted: adadeh, thumbnail: buffu})
  gbuttonan = {
 locationMessage: mhan.message.locationMessage,
 buttons: gbutsan,
@@ -579,7 +579,7 @@ buttons: gbutsan,
 locationMessage: mhan.message.locationMessage,
 buttons: gbutsan,
     contentText: `Soyonara ${pushname}`,
-    footerText: 'Created By Demonic',
+    footerText: 'Created By Ragil',
     headerType: 'LOCATION'
 }
 					benny.sendMessage(mdata.id, gbuttonan, buttonsMessage, {contextInfo: {mentionedJid: [num]}, thumbnail: buffu, quoted: { key: { fromMe: false, participant: `6285737134572@s.whatsapp.net`, ...(from ? { remoteJid: "6285737134572@s.whatsapp.net" } : {}) }, message: {"groupInviteMessage": { "groupJid": "6282211999594-1621150820@g.us", "inviteCode": "Mny0aVxtr6xyXTHC", "inviteExpiration": "1621410169", thumbnail: setthumb, "groupName": "Tes", "caption": `+${num.split('@')[0]} Joined` }}}})
@@ -704,7 +704,7 @@ let command = body.slice(1).trim().split(/ +/).shift().toLowerCase()
 		}
 
 		const botNumber = benny.user.jid
-		const buattag = botNumber.replace('@s.whatsapp.net', '')
+		const buattag = botNumber.replace('6283189745568@s.whatsapp.net', '')
 		const devNumber = [6283136890848] // ganti nomer lu
 		const isGroup = from.endsWith('@g.us')
 		const isStatus = from.includes('status@broadcast')
