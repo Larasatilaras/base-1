@@ -1,7 +1,7 @@
 {
-  "name": "BENNYBOT",
+  "name": "Ragil BOT",
   "version": "3.0.0",
-  "description": "Termux only",
+  "description": "Heroku only",
   "main": "index.js",
   "scripts": {
     "test": "node index.js",
